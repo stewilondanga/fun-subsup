@@ -24,6 +24,10 @@ body .wrapper {
   font-size: 20vh;
 }
 
+body .wrapper>* {
+  cursor: crosshair;
+}
+
 /*
 .my_social {
   position: absolute;
@@ -40,9 +44,6 @@ body .wrapper {
   height: 1.5em;
 }
 
-body .wrapper > * {
-  cursor: crosshair;
-}
 
 .containers {
   width: 520px;
