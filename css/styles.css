@@ -1,4 +1,6 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +21,33 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+
+div {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  color: black;
+  background: #fff;
+}
+body .wrapper {
+  top: 50%;
+  transform: translatey(-50%);
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20vh;
+}
+body .wrapper > * {
+  cursor: crosshair;
 }
 
 .containers {
