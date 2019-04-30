@@ -14,6 +14,16 @@ body {
   background: #fff;
 }
 
+body .wrapper {
+  top: 50%;
+  transform: translatey(-50%);
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20vh;
+}
+
 /*
 .my_social {
   position: absolute;
@@ -30,15 +40,6 @@ body {
   height: 1.5em;
 }
 
-body .wrapper {
-  top: 50%;
-  transform: translatey(-50%);
-  width: 100vw;
-  height: auto;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  font-size: 20vh;
-}
 body .wrapper > * {
   cursor: crosshair;
 }
