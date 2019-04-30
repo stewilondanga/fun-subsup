@@ -7,9 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*var tags = ['sup', 'sub', 'span'], tag = '';
+var tags = ['sup', 'sub', 'span'],
+  tag = '';
 
-
+/*
 $(document).on({
   'mouseenter': function() {
     var back = ["#ffb821","#00ffa9","#b600ff"];
